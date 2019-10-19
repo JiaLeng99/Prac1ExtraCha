@@ -78,9 +78,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun sum3(){
-        val resultText2: TextView = findViewById(R.id.result_text)
-        val resultText3: TextView = findViewById(R.id.result_text)
-        val resultText4: TextView = findViewById(R.id.result_text)
+        val resultText2: TextView = findViewById(R.id.result2_text)
+        val resultText3: TextView = findViewById(R.id.result3_text)
+        val resultText4: TextView = findViewById(R.id.result4_text)
 
 
         val first = Integer.parseInt(resultText2.text.toString())
@@ -98,8 +98,8 @@ class MainActivity : AppCompatActivity() {
     private fun sum4(){
 
         val resultText: TextView = findViewById(R.id.result_text)
-        val resultText2: TextView = findViewById(R.id.result_text)
-        val resultText3: TextView = findViewById(R.id.result_text)
+        val resultText2: TextView = findViewById(R.id.result2_text)
+        val resultText3: TextView = findViewById(R.id.result3_text)
         val resultText4: TextView = findViewById(R.id.result4_text)
 
 
